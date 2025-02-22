@@ -17,7 +17,7 @@ export default function Categories() {
           >
             {cat.name}
           </NavLink>
-            { /* <Link to = {cat.id}>{cat.name}</Link> */}
+
           </li>
         ))}
       </ul>

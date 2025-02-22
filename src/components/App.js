@@ -1,5 +1,5 @@
-import { Routes, Route, Link } from "react-router-dom";
-import logo from "../assets/red30-tech-logo.png";
+import { Routes, Route } from "react-router-dom";
+//import logo from "../assets/red30-tech-logo.png";
 import Home from "./Home";
 import About from "./About";
 import Categories from "./Categories";
@@ -12,19 +12,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-      {/* <header className="container">
-        <img
-          className="logo"
-          src={logo}
-          alt="Red30 Tech logo"
-          title="Red30 Tech | Home"
-        />
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/categories">Categories</Link>
-        </nav>
-      </header>  */}
+     
 
       <Routes>
         <Route path="/" element={<Home title="Welcome to Red30 Tech"></Home>} />
