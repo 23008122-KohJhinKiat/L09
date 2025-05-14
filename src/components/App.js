@@ -10,7 +10,7 @@ import Register from "./Register";
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Header />
      
 
